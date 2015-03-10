@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg" >
+    
+    <EditText
+        android:id="@+id/loginoid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="186px"
+        android:layout_marginTop="200px"
+        android:paddingLeft="20px"
+        android:textSize="24sp"
+        android:textColor="#565656"
+        android:textColorHint="#E8E8E8"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:background="@drawable/login_pass" />
+    
+    <EditText
+        android:id="@+id/loginpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="186px"
+        android:layout_marginTop="253px"
+        android:paddingLeft="20px"
+        android:textSize="24sp"
+        android:textColor="#565656"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:background="@drawable/login_pass" />
+      
+    <Button 
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="532px"
+        android:layout_marginTop="186px"
+        android:background="@drawable/os_login_selector" />
+    
+    <Button
+        android:id="@+id/cancelbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="529px"
+        android:layout_marginTop="294px"
+        android:background="@drawable/dv_cancel_selector" />
+    
+</RelativeLayout>

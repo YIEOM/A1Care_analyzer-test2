@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shutdownlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shutdown_bg" >
+      
+    <ImageView 
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="246px"
+        android:layout_centerHorizontal="true" />
+    
+    <TextView 
+        android:id="@+id/shutDownText" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204px"
+        android:typeface="sans"
+        android:textSize="32px"
+        android:textColor="#FFFFFF" />
+    
+</RelativeLayout>
